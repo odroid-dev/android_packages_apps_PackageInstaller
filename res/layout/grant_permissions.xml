@@ -143,6 +143,14 @@
                         android:text="@string/grant_dialog_button_allow" >
                     </Button>
 
+                    <Space
+                        android:id="@+id/spacer"
+                        android:layout_width="20dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"
+                        android:visibility="invisible" >
+                    </Space>
+
                 </com.android.packageinstaller.permission.ui.ButtonBarLayout>
 
             </LinearLayout>
